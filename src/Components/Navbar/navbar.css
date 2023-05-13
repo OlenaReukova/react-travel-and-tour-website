@@ -25,32 +25,30 @@
   width: 100%;
   padding: 1rem;
   z-index: 1000;
-
-  .logo {
-    color: var(--blackColor);
-  }
-
-  @media screen and (max-width: 760px) {
-    .navbar {
-      position: absolute;
-      background: var(--whiteColorDeam);
-      height: max-content;
-      width: 80%;
-      border-radius: 1rem;
-      top: 6rem;
-      left: 50%;
-      transform: translate(-50%);
-      z-index: 2000;
-      box-shadow: 0 2px 4px rgba(2, 15, 29, 0.904);
-      transition: 0.3s ease-in-out;
-
-      .navList {
-        flex-direction: column;
-        justify-content: center;
-        width: 100%;
-        margin: auto;
-        padding: 0.5rem 0;
-      }
-    }
-  }
 }
+.header .logo {
+  color: var(--blackColor);
+}
+@media screen and (max-width: 760px) {
+  .header .navbar {
+    position: absolute;
+    background: var(--whiteColorDeam);
+    height: -moz-max-content;
+    height: max-content;
+    width: 80%;
+    border-radius: 1rem;
+    top: 6rem;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 2000;
+    box-shadow: 0 2px 4px rgba(2, 15, 29, 0.904);
+    transition: 0.3s ease-in-out;
+  }
+  .header .navbar .navList {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    padding: 0.5rem 0;
+  }
+}/*# sourceMappingURL=navbar.css.map */
