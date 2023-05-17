@@ -1,16 +1,16 @@
 import React from "react";
 import "./Footer.scss";
 // npm install react-icons --save
-import {FiSend} from "react-icon/fi";
-// import {MdOutlineTravelExplore} from 'react-icon/md'
-import {AiOutlineTwitter} from 'react-icon/ai'
-import {AiFillYoutube} from 'react-icon/ai'
-import {AiFillInstagram} from 'react-icon/ai'
-import {FaTripafdvisor} from 'react-icon/Fa'
-import {FiChevronRight} from 'react-icon/Fi'
+import {FiSend} from "react-icons/fi";
+import {MdOutlineTravelExplore} from 'react-icons/md'
+import { AiOutlineTwitter } from "react-icons/ai";
+import { AiFillYoutube } from "react-icons/ai";
+import { AiFillInstagram } from "react-icons/ai";
+import { FaTripadvisor } from "react-icons/fa";
+import { FiChevronRight } from "react-icons/fi";
 
 const Footer = () => {
-  return 
+  return (
   <section className="footer">
       {/* <div className="videoDiv">
         <video src= {video2} loop autoPlay muted type="video/mp4"></video>
@@ -29,11 +29,11 @@ const Footer = () => {
         </div>
         <div className="footerCard flex">
           <div className="footerIntro flex">
-            {/* <div className='logoDiv'>
+            <div className='logoDiv'>
             <a href="#" className='logo flex'>
             <MdOutlineTravelExplore className="icon"/>Travel
             </a>
-            </div> */}
+            </div>
             <div className="footerParagraph">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, tempora perferendis eveniet dolore consectetur pariatur eaque vitae, cumque excepturi reprehenderit aut dolor itaque sunt iusto est labore error. Nihil, accusamus.
             </div>
@@ -41,7 +41,7 @@ const Footer = () => {
               <AiOutlineTwitter className ='icon'/>
               <AiFillYoutube className="icon"/>
               <AiFillInstagram className= 'icon'/>
-              <FaTripafdvisor className='icon'/>
+              <FaTripadvisor className='icon'/>
             </div>
         
             <div className="footerLinks grid" >
@@ -136,7 +136,7 @@ const Footer = () => {
 
         </div>
       </div>
-  </section>
+  </section>)
   };
 
   export default Footer;
