@@ -1,11 +1,11 @@
 import React from "react";
 import "./home.scss";
-import video from "../../Assets/video,mp4";
+import video from "../../Assets/Mp4.mp4";
 import { GrLocation } from "react-icons/gr";
 import { HiFilter } from "react-icons/hi";
-import { FiFacebookr } from "react-icons/fi";
+import { FiFacebook } from "react-icons/fi";
 import { AiOutlineInstagram } from "react-icons/ai";
-import { SiTripadvisor } from "react-icons/fi";
+import { SiTripadvisor } from "react-icons/si";
 import { BsListTask } from "react-icons/bs";
 import { TbApps } from "react-icons/tb";
 const Home = () => {
