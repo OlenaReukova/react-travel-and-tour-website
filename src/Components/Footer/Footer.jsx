@@ -1,5 +1,5 @@
 import React from "react";
-import "./Footer.scss";
+import "./footer.scss";
 // npm install react-icons --save
 import {FiSend} from "react-icons/fi";
 import {MdOutlineTravelExplore} from 'react-icons/md'
